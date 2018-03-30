@@ -27,7 +27,11 @@ arguments under *Project > Set program's arguments...* Both ```mpiexec``` and
 
     mv path/to/existing/cb_console_runner path/to/existing/cb_console_runner.old
 
-  5. Copy the modified ```cb_console_runner``` to the original path of the
+  5. Make ```cb_console_runner``` and executable (If using the prebuilt version)
+  
+    chmod +x path/to/modified/cb_console_runner
+    
+  6. Copy the modified ```cb_console_runner``` to the original path of the
   existing ```cb_console_runner```.
 
     cp path/to/MPI-CodeBlocks-ConsoleRunner/bin/<build_target>/cb_console_runner \
